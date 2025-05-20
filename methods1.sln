@@ -1,0 +1,9 @@
+// Конвертор за температури
+double fahrenheit = double.Parse(Console.ReadLine());
+
+static double Cels(double fahrenheit)
+{
+    return (fahrenheit - 32) * 5 / 9; 
+}
+
+Console.WriteLine($"{Cels(fahrenheit):f2}");
